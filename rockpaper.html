@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            background-color: rgb(139, 200, 199);
+            
+        }
+        h1{
+            margin-top: 0px;
+            color:wheat;
+            margin-left:120px;
+        }
+        button img{
+            width:100px;
+            border-radius: 50px;
+            border:none;
+            
+        }
+        .youcomp img{
+            width:20px;
+        }
+        .youcomp{
+            margin-left:194px;
+            color: rgb(156, 92, 83);
+        }
+
+        .quer{
+            margin-left:190px;
+            color: rgb(73, 114, 112);
+        }
+        
+        
+        
+        .butt1{
+            
+            background-color: transparent;
+            border-radius: 50px;
+            margin-left:50px;
+            margin-top: 2px;
+            cursor:pointer;
+            
+        }
+        .butt2{
+            background-color: transparent;
+            border-radius: 50px;
+            margin-left:15px;
+            margin-top: 2px;
+            cursor:pointer;
+        }
+        .butt3{
+            background-color: transparent;
+            border-radius: 50px;
+            margin-left:15px;
+            margin-top: 2px;
+            cursor:pointer;
+        }
+        .res{
+            margin-left: 230px;
+            text-decoration: blink;
+            color: rgb(156, 92, 83);
+        }
+        .result-button{
+            margin-left: 230px;
+            background-color: rgb(139, 200, 199);
+            color: black;
+            border: 1px solid black;
+            border-radius: 20px;;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+    
+    
+    
+    <button  class="butt1"  onclick="
+       playermove=`rock`;
+       player(playermove);
+       ">
+       <img src="rock.webp">
+    
+    </button>
+    
+    <button class="butt2"   onclick="
+        playermove=`paper`;
+        player(playermove);
+        ">
+        <img src="paper.png">
+       
+    </button>
+    
+    <button  class="butt3"  onclick="
+       playermove=`scissor`;
+       player(playermove);
+       ">
+       <img src="scissor.png">
+         
+    </button>
+
+    <p class="res"></p>
+    <p class="youcomp"></p>
+    <p class="quer"></p>
+
+
+    <button class="result-button" onclick="
+         resul = {
+            wins : 0,
+            lose :0,
+            tie:0
+         }
+         ons();
+         localStorage.removeItem('update')">Reset score</button>
+    
+    
+    <script src="rockpaper.js"></script>
+    
+</body>
+</html>
