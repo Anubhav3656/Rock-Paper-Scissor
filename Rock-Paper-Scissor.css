@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(139, 200, 199);
+    
+}
+h1{
+    margin-top: 0px;
+    color:wheat;
+    margin-left:120px;
+}
+button img{
+    width:100px;
+    border-radius: 50px;
+    border:none;
+    
+}
+.youcomp img{
+    width:20px;
+}
+.youcomp{
+    margin-left:194px;
+    color: rgb(156, 92, 83);
+}
+
+.quer{
+    margin-left:190px;
+    color: rgb(73, 114, 112);
+}
+
+
+
+.butt1{
+    
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left:50px;
+    margin-top: 2px;
+    cursor:pointer;
+    
+}
+.butt2{
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left:15px;
+    margin-top: 2px;
+    cursor:pointer;
+}
+.butt3{
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left:15px;
+    margin-top: 2px;
+    cursor:pointer;
+}
+.res{
+    margin-left: 230px;
+    text-decoration: blink;
+    color: rgb(156, 92, 83);
+}
+.result-button{
+    margin-left: 230px;
+    background-color: rgb(139, 200, 199);
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;;
+}
